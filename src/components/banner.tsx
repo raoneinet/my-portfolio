@@ -46,7 +46,7 @@ export const Banner = ()=>{
                     </div>
                 </div>
                 <div className="flex justify-center md:justify-end">
-                    <img src="/raone.png" className="w-auto"/>
+                    <img src="/raone.png" className={`w-auto ${themeCtx?.theme === "dark" ? "opacity-50" : "backdrop-opacity-100"}`}/>
                 </div>
             </div>
         </div>
