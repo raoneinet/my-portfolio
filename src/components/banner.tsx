@@ -1,6 +1,9 @@
-
+import {useContext} from "react"
+import { ThemeContext } from "@/contexts/themeContext"
 
 export const Banner = ()=>{
+
+    const themeCtx = useContext(ThemeContext)
 
     const downloadCv = "/downloadCv/raone-ferreira-cv.pdf"
     
@@ -15,7 +18,9 @@ export const Banner = ()=>{
     } 
 
     return (
-        <div className="md:max-w-7xl mx-auto" id="banner">
+        <div className={`mx-auto
+            ${themeCtx?.theme === "dark" ? "bg-black text-whie" : "bg-white text-black"}
+        `} id="banner">
             <div className="md:max-w-7xl lg:h-130 mx-auto grid md:grid-cols-2">
                 <div className="flex flex-col flex-1 justify-center items-baseline">
                     <div className="md:w-1/2 p-1">
