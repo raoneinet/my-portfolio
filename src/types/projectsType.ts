@@ -9,3 +9,8 @@ export type ProTypes = {
     description: string;
     development: string[];
 }
+
+export type ThemeContextType = {
+    theme: string,
+    setTheme: (newTheme: string)=>void
+}
