@@ -12,7 +12,7 @@ export const Container = ()=>{
 
     return (
         <div className={`mx-auto
-            ${themeCtx?.theme === "dark" ? "bg-black text-white" : "bg-white text-black"}
+            ${themeCtx?.theme === "dark" ? "bg-black text-gray-800" : "bg-white text-gray-800"}
         `}>
             <Header/>
             <Stacks/>

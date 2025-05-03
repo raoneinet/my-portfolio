@@ -19,19 +19,21 @@ export const Banner = ()=>{
 
     return (
         <div className={`mx-auto
-            ${themeCtx?.theme === "dark" ? "bg-black text-whie" : "bg-white text-black"}
+            ${themeCtx?.theme === "dark" ? "bg-black text-gray-800" : "bg-white text-gray-800"}
         `} id="banner">
             <div className="md:max-w-7xl lg:h-130 mx-auto grid md:grid-cols-2">
                 <div className="flex flex-col flex-1 justify-center items-baseline">
                     <div className="md:w-1/2 p-1">
-                        <h1 className="text-6xl md:text-8xl font-bold text-gray-800">&lt;Raone Ferreira/&gt;</h1>
-                        <h2 className="text-xl font-normal text-gray-600">Front-end Developer</h2>
-                        <p className="mt-5 text-gray-600">
+                        <h1 className="text-6xl md:text-8xl font-bold">&lt;Raone Ferreira/&gt;</h1>
+                        <h2 className="text-xl font-normal ">Front-end Developer</h2>
+                        <p className="mt-5">
                             Olá! Sou Raone Ferreira. Sou estudante de Engenharia Informática e especialista em Front-end. Em busca de contribuir com o meio tech.
                         </p>
                         <button 
                             onClick={handleDowloadCv} 
-                            className="mt-3 px-2 py-3 bg-indigo-500 rounded-2xl text-white font-bold hover:opacity-70 cursor-pointer"
+                            className={`mt-3 px-2 py-3 border 
+                                ${themeCtx?.theme === "dark" ? "border-gray-400 text-gray-400" : "border-gray-800"} 
+                                rounded-2xl font-bold hover:opacity-70 cursor-pointer`}
                         >Vizualizar CV</button>
                         <div className="flex gap-2 mt-2">
                             <a href="https://github.com/raoneinet" target="_blank">

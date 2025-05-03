@@ -1,6 +1,9 @@
-
+import {useContext} from "react"
+import { ThemeContext } from "@/contexts/themeContext"
 
 export const Promotion = () => {
+
+    const themeCtx = useContext(ThemeContext)
 
     const downloadCv = "/downloadCv/raone-ferreira-cv.pdf"
 
@@ -33,14 +36,16 @@ export const Promotion = () => {
                         desenvolvimento web com Wordpress, HTML, CSS, JavaScript, React.JS, PHP e MySQL. Também falo algumas línguas, nomeadamente: Português, Inglês, francês, italiano e espanhol. </p>
                     <div className="flex gap-1 items-center">
                         <a href="https://github.com/raoneinet" target="_blank">
-                            <img src="/icons/github.png" className="w-8 hover:animate-spin" />
+                            <img src="/icons/github.png" className="w-11 hover:animate-spin" />
                         </a>
                         <a href="https://www.linkedin.com/in/raone-ferreira-dev/" target="_blank">
-                            <img src="/icons/linkedin.png" className="w-8 hover:animate-spin" />
+                            <img src="/icons/linkedin.png" className="w-11 hover:animate-spin" />
                         </a>
                         <button
                             onClick={handleDowloadCv}
-                            className="mt-2 px-1 py-2 text-sm bg-indigo-500 rounded-2xl text-white font-bold hover:opacity-70 cursor-pointer"
+                            className={`mt-3 px-2 py-2 border 
+                                ${themeCtx?.theme === "dark" ? "border-gray-400 text-gray-500" : "border-gray-800 text-gray-800"} 
+                                rounded-2xl font-bold hover:opacity-70 cursor-pointer`}
                         >Vizualizar CV</button>
                     </div>
                 </div>
