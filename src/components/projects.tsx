@@ -8,7 +8,7 @@ export const Projects = ()=>{
             <h1 className="text-5xl text-gray-800">&lt;PROJECTS /&gt;</h1>
             <div className="grid w-full grid-cols-1 lg:grid-cols-2 gap-5 p-1 my-5">
                 {itemsCard.map(item => (
-                    <div className="flex flex-col w-full gap-2 shadow inset-shadow-sm inset-shadow-indigo-600 p-3 rounded-md hover:scale-105 bg-gray-50">
+                    <div className="flex flex-col w-full gap-2 shadow inset-shadow-sm inset-shadow-indigo-600 p-3 rounded-md hover:scale-105">
                         <div className="flex gap-1 items-center">
                             <img src="/icons/safari.png" className="w-6 h-6"/>
                             <input type="text" className="border text-sm border-gray-300 w-full h-7 rounded-full overflow-none pl-3" value={item.url}/>

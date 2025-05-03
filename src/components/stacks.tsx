@@ -4,7 +4,7 @@ export const Stacks = () => {
     return (
         <div className="md:max-w-7xl mx-auto my-10">
             <div className="flex flex-col items-center">
-                <div className="text-5xl text-gray-800">&lt;Stacks /&gt;</div>
+                <div className="text-5xl">&lt;Stacks /&gt;</div>
                 <div className="w-full flex justify-between flex-wrap p-1 text-sm my-10 animate-bounce">
                     <fieldset className="flex flex-wrap justify-center gap-2 border border-gray-400 rounded-md p-2 transition delay-150 duration-200 ease-iin-out hover:-translation-y-1 hover:border-indigo-600 hover:scale-110">
                         <legend>Front-end</legend>
