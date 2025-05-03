@@ -16,7 +16,9 @@ export const Projects = ()=>{
                         </div>
                         <div className="flex flex-col md:flex-row w-full p-2 gap-2">
                             <div className="flex-1">
-                                <img src={item.img} className=""/>
+                                <div className="bg-black rounded-lg">
+                                    <img src={item.img} className="opacity-50 hover:opacity-90"/>
+                                </div>
                                 <div className="text-2xl">{item.title}</div>
                             </div>
                             <div className="mt-3 flex flex-col md:w-1/2 gap-2">
