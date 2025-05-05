@@ -19,7 +19,7 @@ export const Banner = ()=>{
 
     return (
         <div className={`mx-auto
-            ${themeCtx?.theme === "dark" ? "bg-black text-gray-800" : "bg-white text-gray-800"}
+            ${themeCtx?.theme === "dark" ? "bg-black text-gray-200" : "bg-white text-gray-800"}
         `} id="banner">
             <div className="md:max-w-7xl lg:h-130 mx-auto grid md:grid-cols-2">
                 <div className="flex flex-col flex-1 justify-center items-baseline">
@@ -32,7 +32,7 @@ export const Banner = ()=>{
                         <button 
                             onClick={handleDowloadCv} 
                             className={`mt-3 px-2 py-3 border 
-                                ${themeCtx?.theme === "dark" ? "border-gray-400 text-gray-400" : "border-gray-800"} 
+                                ${themeCtx?.theme === "dark" ? "border-gray-200 text-gray-200" : "border-gray-800"} 
                                 rounded-2xl font-bold hover:opacity-70 cursor-pointer`}
                         >Vizualizar CV</button>
                         <div className="flex gap-2 mt-2">
