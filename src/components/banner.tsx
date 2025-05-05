@@ -21,7 +21,7 @@ export const Banner = ()=>{
         <div className={`mx-auto
             ${themeCtx?.theme === "dark" ? "bg-black text-gray-200" : "bg-white text-gray-800"}
         `} id="banner">
-            <div className="md:max-w-7xl lg:h-130 mx-auto grid md:grid-cols-2">
+            <div className="md:max-w-7xl lg:h-130 mx-auto grid md:grid-cols-2 p-3">
                 <div className="flex flex-col flex-1 justify-center items-baseline">
                     <div className="md:w-1/2 p-1">
                         <h1 className="text-6xl md:text-8xl font-bold">&lt;Raone Ferreira/&gt;</h1>

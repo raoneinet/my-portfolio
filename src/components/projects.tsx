@@ -6,7 +6,7 @@ export const Projects = ()=>{
     return (
         <div className="md:max-w-7xl w-full mx-auto flex flex-col items-center" id="project-session">
             <h1 className="text-5xl">&lt;PROJECTS /&gt;</h1>
-            <div className="grid w-full grid-cols-1 lg:grid-cols-2 gap-5 p-1 my-5">
+            <div className="grid w-full grid-cols-1 lg:grid-cols-2 gap-5 p-3 my-5">
                 {itemsCard.map(item => (
                     <div className="flex flex-col w-full gap-2 shadow inset-shadow-sm inset-shadow-indigo-600 p-3 rounded-md hover:scale-105">
                         <div className="flex gap-1 items-center">
