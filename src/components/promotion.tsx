@@ -18,7 +18,7 @@ export const Promotion = () => {
     }
 
     return (
-        <div className="md:max-w-7xl lg:h-100 mx-auto my-20 p-2">
+        <div className="md:max-w-7xl lg:h-100 mx-auto my-20 p-3">
             <h1 className="text-4xl md:text-5xl font-bold">&lt; Raone_Ferreira /&gt;</h1>
             <div className=" grid md:grid-cols-2 items-center">
                 <div className="grid lg:grid-cols-2">

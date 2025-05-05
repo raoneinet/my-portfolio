@@ -12,7 +12,7 @@ export const Header = ()=>{
             ${themeCtx?.theme === "dark" ? "bg-black text-white shadow-gray-600" : "bg-white text-black shadow-gray-400"}
         `}>
             <div className="bg-black">
-                <div className="flex justify-between items-center py-3 lg:max-w-7xl mx-auto">
+                <div className="flex justify-between items-center py-3 px-3 lg:max-w-7xl mx-auto">
                     <div className="text-4xl font-bold text-gray-200">RF.</div>
                     <Menu/>
                 </div>
