@@ -44,7 +44,7 @@ export const Promotion = () => {
                         <button
                             onClick={handleDowloadCv}
                             className={`mt-3 px-2 py-2 border 
-                                ${themeCtx?.theme === "dark" ? "border-gray-400 text-gray-500" : "border-gray-800 text-gray-800"} 
+                                ${themeCtx?.theme === "dark" ? "border-gray-400 text-gray-200" : "border-gray-800 text-gray-800"} 
                                 rounded-2xl font-bold hover:opacity-70 cursor-pointer`}
                         >Vizualizar CV</button>
                     </div>

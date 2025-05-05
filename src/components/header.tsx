@@ -9,7 +9,7 @@ export const Header = ()=>{
 
     return (
         <div className={`shadow
-            ${themeCtx?.theme === "dark" ? "bg-black text-white shadow-gray-700" : "bg-white text-black shadow-gray-400"}
+            ${themeCtx?.theme === "dark" ? "bg-black text-white shadow-gray-600" : "bg-white text-black shadow-gray-400"}
         `}>
             <div className="bg-black">
                 <div className="flex justify-between items-center py-3 lg:max-w-7xl mx-auto">
