@@ -11,7 +11,7 @@ export const Container = ()=>{
     const themeCtx = useContext(ThemeContext)
 
     return (
-        <div className={`mx-auto
+        <div className={`mx-auto 
             ${themeCtx?.theme === "dark" ? "bg-black text-gray-200" : "bg-white text-gray-800"}
         `}>
             <Header/>

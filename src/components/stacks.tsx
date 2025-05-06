@@ -1,4 +1,4 @@
-
+import {StackDescription} from "@/components/stackDescription"
 
 export const Stacks = () => {
     return (
@@ -70,6 +70,7 @@ export const Stacks = () => {
                         </div>
                     </fieldset>
                 </div>
+                <StackDescription/>
             </div>
         </div>
     )
