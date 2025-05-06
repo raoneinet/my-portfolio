@@ -31,7 +31,7 @@ export const Promotion = () => {
                 </div>
                 <div>
                     <p>Seja bem-vindo ao meu portfólio!</p>
-                    <p>Sou Raone Ferreira. Brasileiro que mora em Lisboa, Portugal. Sou um profissional e estudante dedicado, apaixonado por tecnologia, em busca de uma oportunidade no mercado
+                    <p className="text-justify">Sou Raone Ferreira. Brasileiro que mora em Lisboa, Portugal. Sou um profissional e estudante dedicado, apaixonado por tecnologia, em busca de uma oportunidade no mercado
                         tecnológico. Atualmente, cursando Engenharia Informática na Universidade Aberta de Portugal (<a href="https://portal.uab.pt/" target="_blank" className="text-indigo-500/90">UAB Pt</a>), e experiência em
                         desenvolvimento web com Wordpress, HTML, CSS, JavaScript, React.JS, PHP e MySQL. Também falo algumas línguas, nomeadamente: Português, Inglês, francês, italiano e espanhol. </p>
                     <div className="flex gap-1 items-center">
