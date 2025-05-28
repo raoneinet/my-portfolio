@@ -27,9 +27,9 @@ export const projectsData = [
     {
         id: 4,
         title: "Previsão_do_Tempo",
-        url: "https://weather-app-sage-one-62.vercel.app/",
-        github: "",
-        img: "/projectsImg/bomtempo.png",
+        url: "https://weather-app-seven-pi-37.vercel.app/",
+        github: "https://github.com/raoneinet/weather",
+        img: "/projectsImg/weather.png",
         description: "Plataforma para consulta de previsão do tempo com busca por localidade. Faz uso de API da plataforma Open Weather para obtenção de resultados precisos.",
         development: ["Html", "Bootstrap", "Javascript"]
     },
