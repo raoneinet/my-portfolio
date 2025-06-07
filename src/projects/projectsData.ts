@@ -40,7 +40,7 @@ export const projectsData = [
         github: "",
         img: "/projectsImg/buscacep.png",
         description: "Plataform para consultas de código postal brasileiro. Este plataforma faz uso de API Buscador de CEP. Os resultados vão variar de acordo com a informação fornecida pela API.",
-        development: ["Html", "CSS", "Javascript"]
+        development: ["Html", "CSS", "Javascript", "API"]
     },
     {
         id: 6,
