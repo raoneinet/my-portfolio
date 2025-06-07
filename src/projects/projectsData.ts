@@ -17,12 +17,12 @@ export const projectsData = [
     },
     {
         id: 3,
-        title: "Calculadora_Imc",
-        url: "https://imc-react-mauve.vercel.app/",
-        github: "",
-        img: "/projectsImg/calcImc.png",
-        description: "Calculadora IMC para medir Indice de Massa Corporal. Plataforma criada para auxiliar na manutenção da saúde física e alimentar.",
-        development: ["React", "Tailwind", "Typescript"]
+        title: "Moviepedia",
+        url: "https://moviepedia-phi.vercel.app/",
+        github: "https://github.com/raoneinet/movie-pedia",
+        img: "/projectsImg/movie-pedia.png",
+        description: "Aplicação web para consulta de informações de filmes, utilizando a poderosa API do TMDB (The Movie Database). A ideia é oferecer uma interface limpa, rápida e responsiva para explorar detalhes como sinopse, avaliações e muito mais.",
+        development: ["React","Next", "Tailwind", "Typescript"]
     },
     {
         id: 4,
