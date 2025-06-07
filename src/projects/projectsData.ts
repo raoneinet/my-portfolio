@@ -22,7 +22,7 @@ export const projectsData = [
         github: "https://github.com/raoneinet/movie-pedia",
         img: "/projectsImg/movie-pedia.png",
         description: "Aplicação web para consulta de informações de filmes, utilizando a poderosa API do TMDB (The Movie Database). A ideia é oferecer uma interface limpa, rápida e responsiva para explorar detalhes como sinopse, avaliações e muito mais.",
-        development: ["React","Next", "Tailwind", "Typescript"]
+        development: ["React","Next", "Tailwind", "Typescript", "API"]
     },
     {
         id: 4,
@@ -31,7 +31,7 @@ export const projectsData = [
         github: "https://github.com/raoneinet/weather",
         img: "/projectsImg/weather.png",
         description: "Plataforma para consulta de previsão do tempo com busca por localidade. Faz uso de API da plataforma Open Weather para obtenção de resultados precisos.",
-        development: ["Html", "Bootstrap", "Javascript"]
+        development: ["React", "Tailwind", "Typescript", "API"]
     },
     {
         id: 5,
