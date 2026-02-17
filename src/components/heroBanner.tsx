@@ -20,7 +20,7 @@ export const HeroBanner = ()=>{
             <div className="md:max-w-7xl lg:h-screen mx-auto flex p-3 text-[#5a5a78]">
                 <div className="flex flex-col justify-center items-baseline">
                     <div className="p-1 w-full">
-                        <h1 className="text-12xl md:text-8xl font-bold">&lt;Raone Ferreira/&gt;</h1>
+                        <h1 className="text-9xl md:text-14xl font-bold text-[#dde0f0]">Raone <span className="text-transparent [-webkit-text-stroke:1.5px_rgba(255,255,255,0.18)]">Ferreira</span></h1>
                         <h2 className="text-xl font-normal ">Front-end Developer</h2>
                         <p className="mt-5">
                             Olá! Sou Raone Ferreira. Sou estudante de Engenharia Informática e especialista em Front-end. Em busca de contribuir com o meio tech.
