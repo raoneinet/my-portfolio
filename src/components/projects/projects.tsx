@@ -40,13 +40,17 @@ export const Projects = () => {
                                         </a>
                                     </div>
                                     <div className="text-[#5a5a78] text-sm">
-                                        {project.description}
+                                        <p>{project.description}</p>
                                     </div>
                                     <div className="flex gap-2">
                                         {project.development.map(item =>
                                             <div className="text-[#6ef0c8]/80 p-1 border rounded-sm bg-[#6ef0c8]/10 text-xs">{item}</div>
                                         )}
                                     </div>
+                                    {project.github &&
+                                    <div className="text-[#5a5a78] text-xs">
+                                        <p>Repo: <span>{project.github}</span></p>
+                                    </div>}
                                 </div>
                             </div>
                         ))}
