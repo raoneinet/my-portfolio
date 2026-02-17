@@ -41,7 +41,7 @@ export const SkillAndTools = () => {
                     </div>
                 </div>
                 <div className="flex md:flex-row flex-col gap-5 mt-15">
-                    <div className="p-5 border rounded-lg flex flex-1 flex-col gap-5">
+                    <div className="p-5 border rounded-lg flex flex-1 flex-col gap-5 hover:border-[#6ef0c8] hover:scale-103">
                         <div className="text-2xl">⚛️</div>
                         <div className="text-[#dde0f0] font-bold">Frontend</div>
                         {frontend.map(item => (
@@ -57,7 +57,7 @@ export const SkillAndTools = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="p-5 border rounded-lg flex flex-1 flex-col gap-5">
+                    <div className="p-5 border rounded-lg flex flex-1 flex-col gap-5 hover:border-[#6ef0c8] hover:scale-103">
                         <div className="text-2xl">🌐</div>
                         <div className="text-[#dde0f0] font-bold">CMS & SEO</div>
                         {tools.map(item => (
@@ -72,7 +72,7 @@ export const SkillAndTools = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="p-5 border rounded-lg flex flex-1 flex-col gap-5">
+                    <div className="p-5 border rounded-lg flex flex-1 flex-col gap-5 hover:border-[#6ef0c8] hover:scale-103">
                         <div className="text-2xl">🔧</div>
                         <div className="text-[#dde0f0] font-bold">Infra</div>
                         {infra.map(item => (
@@ -90,7 +90,7 @@ export const SkillAndTools = () => {
                 <div className="mt-15">
                     <div className="flex gap-3 text-[#5a5a78] flex-wrap">
                         {tecnologies.map(item => (
-                            <div className="px-4 py-2 border rounded-4xl text-sm">{item}</div>
+                            <div className="px-4 py-2 border rounded-4xl text-sm hover:text-[#6ef0c8] hover:bg-[#6ef0c8]/10">{item}</div>
                         ))}
                     </div>
                 </div>
