@@ -1,5 +1,5 @@
 
-export const Banner = ()=>{
+export const HeroBanner = ()=>{
 
     const downloadCv = "/downloadCv/raone-ferreira-cv.pdf"
     
