@@ -1,9 +1,5 @@
-import {useContext} from "react"
-import { ThemeContext } from "@/contexts/themeContext"
 
 export const Banner = ()=>{
-
-    const themeCtx = useContext(ThemeContext)
 
     const downloadCv = "/downloadCv/raone-ferreira-cv.pdf"
     
@@ -18,9 +14,7 @@ export const Banner = ()=>{
     } 
 
     return (
-        <div className={`mx-auto
-            ${themeCtx?.theme === "dark" ? "bg-black text-gray-200" : "bg-white text-gray-800"}
-        `} id="banner">
+        <div className={`mx-auto bg-[#080810]`} id="banner">
             <div className="md:max-w-7xl lg:h-130 mx-auto grid md:grid-cols-2 p-3">
                 <div className="flex flex-col flex-1 justify-center items-baseline">
                     <div className="md:w-1/2 p-1">
@@ -31,8 +25,7 @@ export const Banner = ()=>{
                         </p>
                         <button 
                             onClick={handleDowloadCv} 
-                            className={`mt-3 px-2 py-3 border 
-                                ${themeCtx?.theme === "dark" ? "border-gray-200 text-gray-200" : "border-gray-800"} 
+                            className={`mt-3 px-2 py-3 border border-gray-200 text-gray-200 
                                 rounded-2xl font-bold hover:opacity-70 cursor-pointer`}
                         >Vizualizar CV</button>
                         <div className="flex gap-2 mt-2">
@@ -46,7 +39,7 @@ export const Banner = ()=>{
                     </div>
                 </div>
                 <div className="flex justify-center md:justify-end">
-                    <img src="/raone.png" className={`w-auto ${themeCtx?.theme === "dark" ? "opacity-50" : "backdrop-opacity-100"}`}/>
+                    <img src="/raone.png" className={`w-auto opacity-50 backdrop-opacity-100"`}/>
                 </div>
             </div>
         </div>
