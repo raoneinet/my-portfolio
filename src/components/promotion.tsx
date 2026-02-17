@@ -1,9 +1,5 @@
-import {useContext} from "react"
-import { ThemeContext } from "@/contexts/themeContext"
 
 export const Promotion = () => {
-
-    const themeCtx = useContext(ThemeContext)
 
     const downloadCv = "/downloadCv/raone-ferreira-cv.pdf"
 
@@ -43,10 +39,11 @@ export const Promotion = () => {
                         </a>
                         <button
                             onClick={handleDowloadCv}
-                            className={`mt-3 px-2 py-2 border 
-                                ${themeCtx?.theme === "dark" ? "border-gray-400 text-gray-200" : "border-gray-800 text-gray-800"} 
+                            className={`mt-3 px-2 py-2 border border-gray-400 text-gray-200
                                 rounded-2xl font-bold hover:opacity-70 cursor-pointer`}
-                        >Vizualizar CV</button>
+                        >
+                            Vizualizar CV
+                        </button>
                     </div>
                 </div>
             </div>
