@@ -1,6 +1,5 @@
 import { Header } from "@/components/header/header"
-import { Stacks } from "@/components/stacks"
-import { Projects } from "@/components/projects"
+import { Projects } from "@/components/projects/projects"
 import { Footer } from "@/components/footer"
 import { Promotion } from "@/components/promotion"
 import { HeroBanner } from "./heroBanner"
@@ -12,11 +11,11 @@ export const Container = () => {
     return (
         <div className="bg-[#080810] w-full">
             <Header />
-            <div className="mx-auto md:max-w-7xl w-full">
+            <div className="mx-auto md:max-w-6xl w-full tracking-widest">
                 <HeroBanner />
                 <AboutMe />
                 <SkillAndTools/>
-                <Projects />
+                <Projects/>
                 <Promotion />
             </div>
             <Footer />
