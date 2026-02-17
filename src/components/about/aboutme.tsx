@@ -22,13 +22,13 @@ export const AboutMe = () => {
     ]
 
     return (
-        <div className="flex md:flex-row flex-col gap-10 h-screen">
+        <div className="flex md:flex-row flex-col gap-10 min-h-screen">
             <div className="px-5 flex-1">
                 <div>
                     <h3 className="text-[#6ef0c8] text-xs tracking-widest">// 01 - ABOUT ME</h3>
                 </div>
                 <div className="text-[#5a5a78] text-6xl font-bold my-4">
-                    <h1><span className="text-[#dde0f0]">Raone</span> Ferreira</h1>
+                    <h1><span className="text-[#dde0f0]">Who</span>ami</h1>
                 </div>
                 <div className="text-[#5a5a78] tracking-wide font-mono text-sm">
                     <p className="my-4">Computer Engineering student at Universidade Aberta de Portugal (UAb-PT) with hands-on experience in web development and front-end engineering, building responsive, high-performance, and user-focused web applications. Proficient in HTML5, CSS3, Tailwind CSS, JavaScript, TypeScript, React.js, Next.js, with back-end experience in PHP and MySQL.</p>
