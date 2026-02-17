@@ -1,5 +1,4 @@
 import { Terminal } from "./terminal/terminal"
-import Terminal2 from "./terminal/terminalBody2"
 
 export const HeroBanner = () => {
 
@@ -16,14 +15,19 @@ export const HeroBanner = () => {
     }
 
     return (
-        <div className={`mx-auto bg-[#080810]`} id="banner">
-            <div className="md:max-w-7xl lg:h-screen mx-auto flex p-3 text-[#5a5a78]">
-                <div className="flex flex-col justify-center items-baseline">
-                    <div className="p-1 w-full">
+        <div className={`mx-auto bg-[#080810] h-screen pt-30`} id="banner">
+            <div className=" mx-auto h-full flex lg:flex-row flex-col p-3 text-[#5a5a78]">
+                <div className="flex flex-col justify-center items-center">
+                    <div className=" w-full">
                         <div>
-                            <h1 className="text-9xl md:text-14xl font-bold text-[#dde0f0]">Raone <span className="text-transparent [-webkit-text-stroke:1.5px_rgba(255,255,255,0.18)]">Ferreira</span></h1>
+                            <h1 className="lg:text-9xl md:text-8xl text-5xl font-bold text-[#dde0f0]">
+                                Raone 
+                                <span className="text-transparent [-webkit-text-stroke:1.5px_rgba(255,255,255,0.18)]">
+                                    Ferreira
+                                </span>
+                            </h1>
                             <h2 className="text-xl font-normal ">Front-end Developer</h2>
-                            <div className="max-w-2xl text-mono">
+                            <div className="max-w-2xl wrap-anywhere text-mono">
                                 <p className="mt-5">
                                     Computer Engineering student at Universidade Aberta de Portugal (UAb-PT) with hands-on experience in web development and front-end engineering, building responsive, high-performance, and user-focused web applications.
                                 </p>
@@ -46,9 +50,8 @@ export const HeroBanner = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-1 items-center relative">
+                <div className="flex flex-1 items-center relative justify-end">
                     <Terminal />
-
                 </div>
             </div>
         </div>
