@@ -5,7 +5,9 @@ export const projectsData = [
         url: "https://lusobrasil.com",
         img: "/projectsImg/lusobrasil.png",
         description: "Projeto pessoal desenvolvido em Wordpress e com estratégias de SEO. Site criado com sessão de artigos para falar de imigração e viagem. Conteúdo otimizado para rápida renderização e user friendly para melhor utilização do usuário.",
-        development: ["WordPress", "SEO", "Elementor", "Google Analitics"]
+        development: ["WordPress", "SEO", "Elementor", "Google Analitics"],
+        miniProject: false,
+        category: "Blog"
     },
     {
         id: 2,
@@ -13,7 +15,9 @@ export const projectsData = [
         url: "https://dancerstuktuk.com/",
         img: "/projectsImg/tuktuk.png",
         description: "Site institucional desenvolvido em Wordpress e com estratégias de SEO. Site desenvolvido com o objetivo de oferta de serviço de passeio em Lisboa. Conteúdo otimizado para rápida renderização e user friendly para melhor utilização do usuário.",
-        development: ["WordPress", "SEO", "Elementor"]
+        development: ["WordPress", "SEO", "Elementor"],
+        miniProject: false,
+        category: "institutional"
     },
     {
         id: 3,
@@ -22,7 +26,9 @@ export const projectsData = [
         github: "https://github.com/raoneinet/movie-pedia",
         img: "/projectsImg/movie-pedia.png",
         description: "Aplicação web para consulta de informações de filmes, utilizando a poderosa API do TMDB (The Movie Database). A ideia é oferecer uma interface limpa, rápida e responsiva para explorar detalhes como sinopse, avaliações e muito mais.",
-        development: ["React","Next", "Tailwind", "Typescript"]
+        development: ["React","Next", "Tailwind", "Typescript"],
+        miniProject: false,
+        category: "Web App"
     },
     {
         id: 4,
@@ -31,7 +37,9 @@ export const projectsData = [
         github: "https://github.com/raoneinet/weather",
         img: "/projectsImg/weather.png",
         description: "Plataforma para consulta de previsão do tempo com busca por localidade. Faz uso de API da plataforma Open Weather para obtenção de resultados precisos.",
-        development: ["Html", "Bootstrap", "Javascript"]
+        development: ["Html", "Bootstrap", "Javascript"],
+        miniProject: true,
+        category: "Web App"
     },
     {
         id: 5,
@@ -40,7 +48,9 @@ export const projectsData = [
         github: "",
         img: "/projectsImg/buscacep.png",
         description: "Plataform para consultas de código postal brasileiro. Este plataforma faz uso de API Buscador de CEP. Os resultados vão variar de acordo com a informação fornecida pela API.",
-        development: ["Html", "CSS", "Javascript"]
+        development: ["Html", "CSS", "Javascript"],
+        miniProject: true,
+        category: "Web App"
     },
     {
         id: 6,
@@ -49,6 +59,8 @@ export const projectsData = [
         github: "",
         img: "/projectsImg/pizza-store.png",
         description: "Plataforma de venda de pizzas online com carrinho. Perfeito para quem quer montar um negócio simples e minimalista de fácil utilização para o usuário.",
-        development: ["Html", "CSS", "Javascript", "JSON"]
+        development: ["Html", "CSS", "Javascript", "JSON"],
+        miniProject: true,
+        category: "Web App"
     }
 ]

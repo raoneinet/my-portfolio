@@ -22,7 +22,7 @@ export const AboutMe = () => {
     ]
 
     return (
-        <div className="flex md:flex-row flex-col gap-10 min-h-screen">
+        <div className="flex md:flex-row flex-col gap-10 min-h-screen justify-center">
             <div className="px-5 flex-1">
                 <div>
                     <h3 className="text-[#6ef0c8] text-xs tracking-widest">// 01 - ABOUT ME</h3>
@@ -38,8 +38,10 @@ export const AboutMe = () => {
             </div>
             <div className="flex flex-1">
                 <div className="flex flex-col gap-5 items-center place-self-center">
-                    {curriculum.map(item => (
-                        <div className="text-[#5a5a78] tracking-wide font-mono w-3/4">
+                    {curriculum.map((item, index) => (
+                        <div
+                            key={index} 
+                            className="text-[#5a5a78] tracking-wide font-mono w-3/4">
                             <div className="flex flex-col gap-2 items-start">
                                 <div className="border-2 border-[#7c6dfa] w-3 h-3 rounded-full"></div>
                                 <div className="border-l-2 pl-3 ml-1">
