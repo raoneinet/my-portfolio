@@ -6,9 +6,9 @@ export const Header = ()=>{
 
     return (
         <div className="shadow bg-[#0f0f1a]">
-            <div className="">
+            <div className="text-[#5a5a78]">
                 <div className="flex justify-between items-center py-3 px-3">
-                    <div className="text-4xl font-bold text-[#dde0f0]">RF.</div>
+                    <div className="text-4xl">RF.</div>
                     <Menu/>
                     <ActiveDot/>
                 </div>
