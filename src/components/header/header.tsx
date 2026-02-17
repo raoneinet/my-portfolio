@@ -1,6 +1,5 @@
-import {Menu} from "@/components/menu"
-import {HeroBanner} from "@/components/heroBanner"
-import { ActiveDot } from "./activeDot"
+import {Menu} from "@/components/menu/menu"
+import { ActiveDot } from "../activeDot"
 
 export const Header = ()=>{
 
