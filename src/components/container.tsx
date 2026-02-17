@@ -5,6 +5,7 @@ import { Footer } from "@/components/footer"
 import { Promotion } from "@/components/promotion"
 import { HeroBanner } from "./heroBanner"
 import { AboutMe } from "./about/aboutme"
+import { SkillAndTools } from "./skills/skills"
 
 export const Container = () => {
 
@@ -14,7 +15,7 @@ export const Container = () => {
             <div className="mx-auto md:max-w-7xl w-full">
                 <HeroBanner />
                 <AboutMe />
-                <Stacks />
+                <SkillAndTools/>
                 <Projects />
                 <Promotion />
             </div>
