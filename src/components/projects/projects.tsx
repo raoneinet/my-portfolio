@@ -24,7 +24,7 @@ export const Projects = () => {
                             project.miniProject != true &&
                             <div key={project.id} className="bg-[#0f0f1a] border rounded-lg flex md:flex-row flex-col hover:border-[#6ef0c8] hover:scale-103 pb-2">
                                 <div>
-                                    <Image src={project.img} alt="project name" width={400} height={400} className="max-w-3xl rounded-l-lg" />
+                                    <Image src={project.img} alt="project name" width={300} height={400} className="max-w-3xl rounded-l-lg" />
                                 </div>
 
                                 <div className="px-3 py-2 flex flex-col justify-between">
