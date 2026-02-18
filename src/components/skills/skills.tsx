@@ -33,7 +33,7 @@ export const SkillAndTools = () => {
                     <div>
                         <h3 className="text-[#6ef0c8] text-xs tracking-widest">// 01 - ABOUT ME</h3>
                     </div>
-                    <div className="text-[#5a5a78] text-6xl font-bold my-4">
+                    <div className="text-[#5a5a78] md:text-6xl text-5xl font-bold my-4">
                         <h1>
                             <span className="text-[#dde0f0]">Skills</span>&
                             <span className="text-[#dde0f0]">Tools</span>

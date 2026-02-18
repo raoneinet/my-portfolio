@@ -24,7 +24,7 @@ export const MiniProjects = () => {
                             <div key={project.id} 
                                 className="bg-[#0f0f1a] border rounded-lg flex flex-col hover:border-[#6ef0c8] hover:scale-103 pb-2">
                                 <div className="">
-                                    <Image src={project.img} alt="project name" width={400} height={100} className=" h-40 rounded-t-lg" />
+                                    <Image src={project.img} alt="project name" width={300} height={100} className=" h-40 rounded-t-lg" />
                                 </div>
                                 <div className="px-3 py-2 gap-1 flex flex-col justify-between text-xs">
                                     <div className="text-[#5a5a78] text-xs">
