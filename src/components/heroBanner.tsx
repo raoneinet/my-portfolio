@@ -16,7 +16,7 @@ export const HeroBanner = () => {
 
     return (
         <div className={`mx-auto bg-[#080810] h-screen pt-30`} id="banner">
-            <div className=" mx-auto h-full flex lg:flex-row flex-col p-3 text-[#5a5a78]">
+            <div className="h-full flex lg:flex-row flex-col items-center p-3 text-[#5a5a78]">
                 <div className="flex flex-col justify-center items-center">
                     <div className=" w-full">
                         <div>
@@ -50,7 +50,7 @@ export const HeroBanner = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-1 items-center relative justify-end">
+                <div className="flex flex-1 items-center relative justify-center">
                     <Terminal />
                 </div>
             </div>
