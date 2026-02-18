@@ -56,7 +56,6 @@ export const Projects = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="w-full flex-1">...</div>
                 </div>
                 <MiniProjects/>
             </div>
