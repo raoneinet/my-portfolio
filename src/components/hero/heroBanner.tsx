@@ -1,4 +1,5 @@
 import { Terminal } from "../terminal/terminal"
+import TerminalBody from "../terminal/terminalBody"
 
 export const HeroBanner = () => {
 
@@ -15,8 +16,8 @@ export const HeroBanner = () => {
     }
 
     return (
-        <div className={`mx-auto bg-[#080810] md:h-screen min-h-screen pt-30`} id="banner">
-            <div className="h-full flex lg:flex-row flex-col items-center p-3 text-[#5a5a78]">
+        <div className="mx-auto flex items-center bg-[#080810] md:h-screen min-h-screen" id="banner">
+            <div className="flex gap-15 lg:flex-row flex-col items-center justify-between p-3 text-[#5a5a78]">
                 <div className="flex flex-col justify-center items-center">
                     <div className=" w-full">
                         <div>
@@ -50,8 +51,8 @@ export const HeroBanner = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-1 md:items-center relative justify-center">
-                    <Terminal />
+                <div className="flex md:items-center lg:absolute lg:right-10 justify-center">
+                    <TerminalBody />
                 </div>
             </div>
         </div>

@@ -70,7 +70,7 @@ export default function TerminalBody() {
     }, [pos, done]);
 
     return (
-        <div className="w-[340px] rounded-xl overflow-hidden bg-[#0f0f1a] border border-white/[0.08] font-mono text-xs shadow-[0_24px_80px_rgba(0,0,0,0.5)]">
+        <div className="w-[340px] h-fit rounded-xl overflow-hidden bg-[#0f0f1a] border border-white/[0.08] font-mono text-xs shadow-[0_24px_80px_rgba(0,0,0,0.5)]">
 
             {/* ── Title bar */}
             <div className="flex items-center gap-1.5 px-4 py-2.5 bg-[#141422] border-b border-white/[0.06]">
