@@ -7,7 +7,7 @@ export const Contact = () => {
         github: "https://github.com/raoneinet"
     }
     return (
-        <div className="flex lg:h-screen min-h-screen items-center">
+        <div className="flex lg:h-screen min-h-screen items-center" id="contact">
             <div className="flex flex-1 md:flex-row flex-col gap-10 px-4">
                 <div className="px-5 flex-1">
                     <div>
