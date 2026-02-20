@@ -7,7 +7,7 @@ export const Projects = () => {
 
     return (
         <div className="min-h-screen py-5">
-            <div className="flex flex-col h-full justify-center px-4 tracking-widest">
+            <div className="flex flex-col h-full justify-center tracking-widest">
                 <div className="px-5">
                     <div>
                         <h3 className="text-[#6ef0c8] text-xs tracking-widest">// 01 - Projects</h3>
@@ -18,7 +18,7 @@ export const Projects = () => {
                         </h1>
                     </div>
                 </div>
-                <div className="flex flex-col gap-5 mt-15">
+                <div className="flex flex-col gap-5 mt-15 px-4">
                     <div className="w-full flex flex-col gap-4">
                         {projectsData.map(project => (
                             project.miniProject != true &&

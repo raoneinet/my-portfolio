@@ -22,7 +22,7 @@ export const AboutMe = () => {
     ]
 
     return (
-        <div className="flex md:flex-row flex-col gap-10 min-h-screen justify-center">
+        <div className="flex md:flex-row flex-col gap-10 lg:h-screen justify-center">
             <div className="px-5 flex-1">
                 <div>
                     <h3 className="text-[#6ef0c8] text-xs tracking-widest">// 01 - ABOUT ME</h3>
