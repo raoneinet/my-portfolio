@@ -11,7 +11,7 @@ export const SkillAndTools = () => {
 
     const tools = [
         {
-            cms: "WordPress / Hybris",
+            cms: "WordPress / Hybris SAP",
             pagebuilder: "Elementor / Gutenberg",
             seo: "SEO"
         }
@@ -31,7 +31,7 @@ export const SkillAndTools = () => {
             <div className="flex flex-col h-full justify-center px-4">
                 <div className="px-5">
                     <div>
-                        <h3 className="text-[#6ef0c8] text-xs tracking-widest">// 01 - ABOUT ME</h3>
+                        <h3 className="text-[#6ef0c8] text-xs tracking-widest">// 01 - SKILLS & TOOLS</h3>
                     </div>
                     <div className="text-[#5a5a78] md:text-6xl text-5xl font-bold my-4">
                         <h1>
