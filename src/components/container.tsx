@@ -2,7 +2,7 @@ import { Header } from "@/components/header/header"
 import { Projects } from "@/components/projects/projects"
 import { Footer } from "@/components/footer"
 import { Promotion } from "@/components/promotion"
-import { HeroBanner } from "./heroBanner"
+import { HeroBanner } from "@/components/hero/heroBanner"
 import { AboutMe } from "./about/aboutme"
 import { SkillAndTools } from "./skills/skills"
 
