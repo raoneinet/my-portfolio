@@ -16,8 +16,8 @@ export const HeroBanner = () => {
     }
 
     return (
-        <div className="mx-auto flex items-center bg-[#080810] md:h-screen min-h-screen" id="banner">
-            <div className="flex gap-15 lg:flex-row flex-col items-center justify-between p-3 text-[#5a5a78]">
+        <div className="mx-auto flex items-center bg-[#080810] md:h-screen py-30 min-h-screen" id="banner">
+            <div className="flex gap-15 lg:flex-row flex-col items-center justify-between mt-20 p-3 text-[#5a5a78]">
                 <div className="flex flex-col justify-center items-center">
                     <div className=" w-full">
                         <div>
