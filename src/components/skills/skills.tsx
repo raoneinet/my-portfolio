@@ -27,9 +27,9 @@ export const SkillAndTools = () => {
     const tecnologies = ["React", "Next.js", "Javascript", "Typescript", "Tailwind", "Bootstrap", "HTML", "CSS", "PHP", "MySQL", "GIT", "Github", "WordPress", "SEO", "Elementor", "Rest API", "JSON", "AI",]
 
     return (
-        <div className="lg:h-screen py-10">
-            <div className="flex flex-col h-full justify-center my-15 px-4">
-                <div className="px-5">
+        <div className="lg:h-screen min-h-screen py-15 lg:0 flex">
+            <div className="flex flex-col justify-center px-4">
+                <div className="">
                     <div>
                         <h3 className="text-[#6ef0c8] text-xs tracking-widest">// 01 - SKILLS & TOOLS</h3>
                     </div>
@@ -40,7 +40,7 @@ export const SkillAndTools = () => {
                         </h1>
                     </div>
                 </div>
-                <div className="flex md:flex-row flex-col gap-5 mt-15">
+                <div className="flex md:flex-row flex-col gap-5 mt-10">
                     <div className="p-5 border rounded-lg flex flex-1 flex-col gap-5 hover:border-[#6ef0c8] hover:scale-103">
                         <div className="text-2xl">⚛️</div>
                         <div className="text-[#dde0f0] font-bold">Frontend</div>
