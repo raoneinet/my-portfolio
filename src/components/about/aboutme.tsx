@@ -22,7 +22,7 @@ export const AboutMe = () => {
     ]
 
     return (
-        <div className="flex lg:h-screen min-h-screen">
+        <div className="flex lg:h-screen min-h-screen" id="whoami">
             <div className="flex md:flex-row flex-col gap-10">
                 <div className="px-5 flex-1">
                     <div>

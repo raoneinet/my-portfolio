@@ -5,6 +5,7 @@ import { Promotion } from "@/components/promotion"
 import { HeroBanner } from "@/components/hero/heroBanner"
 import { AboutMe } from "./about/aboutme"
 import { SkillAndTools } from "./skills/skills"
+import { Contact } from "./contact/contact"
 
 export const Container = () => {
 
@@ -14,9 +15,9 @@ export const Container = () => {
             <div className="mx-auto md:max-w-6xl w-full tracking-widest">
                 <HeroBanner />
                 <AboutMe />
-                <SkillAndTools/>
-                <Projects/>
-                <Promotion />
+                <SkillAndTools />
+                <Projects />
+                <Contact />
             </div>
             <Footer />
         </div>

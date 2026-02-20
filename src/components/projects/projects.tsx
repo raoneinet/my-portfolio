@@ -6,7 +6,7 @@ export const Projects = () => {
 
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen" id="projects">
             <div className="flex flex-col h-full justify-center tracking-widest">
                 <div className="px-5">
                     <div>
