@@ -27,8 +27,8 @@ export const SkillAndTools = () => {
     const tecnologies = ["React", "Next.js", "Javascript", "Typescript", "Tailwind", "Bootstrap", "HTML", "CSS", "PHP", "MySQL", "GIT", "Github", "WordPress", "SEO", "Elementor", "Rest API", "JSON", "AI",]
 
     return (
-        <div className="min-h-screen py-5">
-            <div className="flex flex-col h-full justify-center px-4">
+        <div className="min-h-screen py-10">
+            <div className="flex flex-col h-full justify-center my-15 px-4">
                 <div className="px-5">
                     <div>
                         <h3 className="text-[#6ef0c8] text-xs tracking-widest">// 01 - SKILLS & TOOLS</h3>
