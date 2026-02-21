@@ -1,4 +1,5 @@
-import { projectsData } from "@/projects/projectsData"
+import { projectsData } from "@/data/projectsData"
+import { ProjectTypes } from "@/types/projectsType"
 import Image from "next/image"
 
 export const MiniProjects = () => {
@@ -18,7 +19,7 @@ export const MiniProjects = () => {
                     </div>
                 </div>
                 <div className="w-full flex gap-4 pb-4 overflow-x-auto lg:overflow-hidden scrollbar-thumb-[#6ef0c8]/40 md:px-10 py-5">
-                    {projectsData.map(project => (
+                    {projectsData.map((project: ProjectTypes) => (
                         project.miniProject != false &&
                         <div key={project.id}
                             className="min-w-70 w-full bg-[#0f0f1a] border rounded-lg flex flex-col hover:border-[#6ef0c8] hover:scale-102 pb-2">
@@ -42,8 +43,13 @@ export const MiniProjects = () => {
                                     <p>{project.description}</p>
                                 </div>
                                 <div className="flex gap-2 flex-wrap">
-                                    {project.development.map(item =>
-                                        <div className="text-[#6ef0c8]/80 p-1 border rounded-sm bg-[#6ef0c8]/10 text-xs">{item}</div>
+                                    {project.development.map((item: string, index: number) =>
+                                        <div
+                                            key={index}
+                                            className="text-[#6ef0c8]/80 p-1 border rounded-sm bg-[#6ef0c8]/10 text-xs"
+                                        >
+                                            {item}
+                                        </div>
                                     )}
                                 </div>
                                 {project.github &&

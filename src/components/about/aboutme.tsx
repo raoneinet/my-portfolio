@@ -1,25 +1,7 @@
-export const AboutMe = () => {
+import {curriculum} from "@/data/curriculumData"
+import { CurriculumType } from "@/types/curriculumType"
 
-    const curriculum = [
-        {
-            year: "2025 - present",
-            title: "Webmaster / Frontend",
-            company: "Nespresso Nestle SA",
-            description: "As a Webmaster at Nespresso, I am responsible for the technical and operational management of the e-commerce platform, ensuring an optimized and high-performance digital experience."
-        },
-        {
-            year: "2022 - 202",
-            title: "Web developer",
-            company: "Workana / Freelancer",
-            description: " Designed, developed, and maintained WordPress-based websites, including e-commerce stores, corporate websites, landing pages, and blogs."
-        },
-        {
-            year: "2018 - present",
-            title: "Web developer / Personal projects & learning",
-            company: "Self study / Freelancer",
-            description: "Studies with HTML5 and CSS3 and Javascript for danamic pages, also learning WordPress and page builders, like Elementor"
-        }
-    ]
+export const AboutMe = () => {
 
     return (
         <div className="flex lg:h-screen min-h-screen" id="whoami">
@@ -32,14 +14,14 @@ export const AboutMe = () => {
                         <h1><span className="text-[#dde0f0]">Who</span>ami</h1>
                     </div>
                     <div className="text-[#5a5a78] tracking-wide font-mono text-sm">
-                        <p className="my-4">Computer Engineering student at Universidade Aberta de Portugal (UAb-PT) with hands-on experience in web development and front-end engineering, building responsive, high-performance, and user-focused web applications. Proficient in HTML5, CSS3, Tailwind CSS, JavaScript, TypeScript, React.js, Next.js, with back-end experience in PHP and MySQL.</p>
+                        <p className="my-4">Computer Engineering student at Universidade Aberta de Portugal (UAb-PT) with hands-on experience in web development and front-end engineering, building responsive, high-performance, and user-focused web applications. Proficient in HTML5, CSS3, Bootstrap, Tailwind CSS, JavaScript, TypeScript, React.js, Next.js, with back-end experience in PHP and MySQL. Always up to date with news about the Tech world and technologies.</p>
 
-                        <p>Skilled in version control (Git), performance optimization, SEO basics, cross-browser testing, responsive design, and accessibility (WCAG). Strong problem-solving skills, continuously learning new technologies, and actively seeking opportunities to contribute to innovative, data-driven, and impactful digital projects.</p>
+                        <p>Skilled in version control (Git) and Github, performance optimization, SEO basics, cross-browser testing, responsive design, and accessibility (WCAG). Strong problem-solving skills, continuously learning new technologies, and actively seeking opportunities to contribute to innovative, data-driven, and impactful digital projects.</p>
                     </div>
                 </div>
                 <div className="flex flex-1 justify-end">
-                    <div className="flex justify-end flex-col gap-5 h-full">
-                        {curriculum.map((item, index) => (
+                    <div className="px-5 flex justify-end flex-col gap-5 h-full">
+                        {curriculum.map((item: CurriculumType, index: number) => (
                             <div
                                 key={index}
                                 className="text-[#5a5a78] tracking-wide font-mono w-3/4">

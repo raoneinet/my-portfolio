@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { Terminal } from "../terminal/terminal"
 import TerminalBody from "../terminal/terminalBody"
 
 export const HeroBanner = () => {
@@ -8,7 +7,7 @@ export const HeroBanner = () => {
 
     const handleDowloadCv = () => {
         const link = document.createElement("a")
-        link.href = "/downloadCv/raone-ferreira-cv.pdf"
+        link.href = "/downloadCv/raone-ferreira-frondend.pdf"
         link.target = "blank"
         //link.download = "raone-ferreira.pdf"
 
@@ -18,20 +17,20 @@ export const HeroBanner = () => {
 
     return (
         <div className="mx-auto flex items-center bg-[#080810] md:h-screen py-15 min-h-screen" id="banner">
-            <div className="flex gap-15 lg:flex-row flex-col items-center justify-between mt-20 p-3 text-[#5a5a78]">
-                <div className="flex flex-col justify-center items-center">
-                    <div className=" w-full">
-                        <div>
-                            <h1 className="lg:text-9xl md:text-8xl text-5xl font-bold text-[#dde0f0]">
+            <div className="flex gap-15 lg:flex-row flex-col items-center justify-between mt-20 text-[#5a5a78]">
+                <div className="flex flex-col justify-center items-center px-5 lg:p-0 ">
+                    <div className="w-full">
+                        <div className="">
+                            <h1 className="lg:text-9xl md:text-8xl sm:text-5xl text-4xl font-bold text-[#dde0f0]">
                                 Raone
                                 <span className="text-transparent [-webkit-text-stroke:1.5px_rgba(255,255,255,0.18)]">
                                     Ferreira
                                 </span>
                             </h1>
                             <h2 className="text-xl font-normal ">Front-end Developer</h2>
-                            <div className="max-w-2xl wrap-anywhere text-mono">
+                            <div className="max-w-2xl text-sm md:text-md wrap-anywhere text-mono">
                                 <p className="mt-5">
-                                    Computer Engineering student at Universidade Aberta de Portugal (UAb-PT) with hands-on experience in web development and front-end engineering, building responsive, high-performance, and user-focused web applications.
+                                    Front-end developer with hands-on experience in web development and front-end engineering, building responsive, high-performance, and user-focused web applications aligned with accessibility best practices.
                                 </p>
                             </div>
                         </div>
@@ -40,9 +39,9 @@ export const HeroBanner = () => {
                                 onClick={handleDowloadCv}
                                 className={`px-6 py-3 border
                                             rounded-lg text-[#6ef0c8] 
-                                            border-[#6ef0c8] bg-[#6ef0c8]/30 hover:bg-black cursor-pointer`}
+                                            border-[#6ef0c8] bg-[#6ef0c8]/20 hover:bg-black cursor-pointer`}
                             >
-                                Vizualizar CV
+                                View CV
                             </button>
                             <Link
                                 href="#contact"

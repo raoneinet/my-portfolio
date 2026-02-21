@@ -1,6 +1,6 @@
-import { projectsData } from "@/projects/projectsData"
-import Image from "next/image"
+import { projectsData } from "@/data/projectsData"
 import { MiniProjects } from "./miniProjects"
+import {ProjectTypes} from "@/types/projectsType"
 
 export const Projects = () => {
 
@@ -20,7 +20,7 @@ export const Projects = () => {
                 </div>
                 <div className="flex flex-col gap-5 mt-10 px-4">
                     <div className="w-full flex flex-col gap-4">
-                        {projectsData.map(project => (
+                        {projectsData.map((project: ProjectTypes) => (
                             project.miniProject != true &&
                             <div key={project.id} className="bg-[#0f0f1a] border rounded-lg flex md:flex-row flex-col hover:border-[#6ef0c8] hover:scale-103 pb-2">
                                 <div>
@@ -44,20 +44,25 @@ export const Projects = () => {
                                         <p>{project.description}</p>
                                     </div>
                                     <div className="flex gap-2 flex-wrap">
-                                        {project.development.map(item =>
-                                            <div className="text-[#6ef0c8]/80 p-1 border rounded-sm bg-[#6ef0c8]/10 text-xs">{item}</div>
+                                        {project.development.map((item: string, index: number) =>
+                                            <div 
+                                                key={index}
+                                                className="text-[#6ef0c8]/80 p-1 border rounded-sm bg-[#6ef0c8]/10 text-xs"
+                                            >
+                                                {item}
+                                            </div>
                                         )}
                                     </div>
                                     {project.github &&
-                                    <div className="text-[#5a5a78] text-xs">
-                                        <p>Repo: <span>{project.github}</span></p>
-                                    </div>}
+                                        <div className="text-[#5a5a78] text-xs">
+                                            <p>Repo: <span>{project.github}</span></p>
+                                        </div>}
                                 </div>
                             </div>
                         ))}
                     </div>
                 </div>
-                <MiniProjects/>
+                <MiniProjects />
             </div>
         </div>
     )
