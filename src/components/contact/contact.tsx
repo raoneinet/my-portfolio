@@ -1,6 +1,6 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 export const Contact = () => {
-    
+
     const social = {
         email: "raoneinet.ing@gmail.com",
         linkedin: "https://www.linkedin.com/in/raone-ferreira-dev/",
@@ -23,16 +23,25 @@ export const Contact = () => {
                 <div className="flex flex-1 justify-end text-[#5a5a78]">
                     <div className="flex flex-col gap-5">
                         <div className="flex py-4 px-3 border rounded-lg items-center hover:border-[#6ef0c8] hover:text-[#6ef0c8] hover:bg-[#6ef0c8]/10">
-                            <div className="px-2"><Mail/></div>
-                            <div>{social.email}</div>
+                            <div className="px-2"><Mail /></div>
+                            <div className="flex justify-between flex-1 items-center">
+                                {social.email}
+                                <ExternalLink className="w-5 cursor-pointer" />
+                            </div>
                         </div>
                         <div className="flex py-4 px-3 border rounded-lg items-center hover:border-[#6ef0c8] hover:text-[#6ef0c8] hover:bg-[#6ef0c8]/10">
                             <div className="px-2"><Linkedin /></div>
-                            <div>{social.linkedin}</div>
+                            <div className="flex justify-between flex-1 items-center">
+                                {social.linkedin}
+                                <ExternalLink className="w-5 cursor-pointer" />
+                            </div>
                         </div>
                         <div className="flex py-4 px-3 border rounded-lg items-center hover:border-[#6ef0c8] hover:text-[#6ef0c8] hover:bg-[#6ef0c8]/10">
                             <div className="px-2"><Github /></div>
-                            <div>{social.github}</div>
+                            <div className="flex justify-between flex-1 items-center">
+                                {social.github}
+                                <ExternalLink className="w-5 cursor-pointer" />
+                            </div>
                         </div>
                     </div>
                 </div>
