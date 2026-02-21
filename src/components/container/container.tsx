@@ -2,9 +2,9 @@ import { Header } from "@/components/header/header"
 import { Projects } from "@/components/projects/projects"
 import { Footer } from "@/components/footer/footer"
 import { HeroBanner } from "@/components/hero/heroBanner"
-import { AboutMe } from "./about/aboutme"
-import { SkillAndTools } from "./skills/skills"
-import { Contact } from "./contact/contact"
+import { AboutMe } from "@/components/about/aboutme"
+import { SkillAndTools } from "@/components/skills/skills"
+import { Contact } from "@/components/contact/contact"
 
 export const PageContainer = () => {
 
