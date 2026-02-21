@@ -38,7 +38,9 @@ export const ParticleEffect = () => {
                                     enable: true,
                                     mode: "repulse",
                                 },
-                                resize: true,
+                                resize:{
+                                    enable: true
+                                },
                             },
                             modes: {
                                 push: {
@@ -74,7 +76,6 @@ export const ParticleEffect = () => {
                             number: {
                                 density: {
                                     enable: true,
-                                    area: 800,
                                 },
                                 value: 80,
                             },
