@@ -9,7 +9,7 @@ import { Contact } from "./contact/contact"
 export const Container = () => {
 
     return (
-        <div className="bg-[#080810] w-full">
+        <div className="bg-[#080810] w-full overflow-hidden">
             <Header />
             <div className="mx-auto md:max-w-6xl w-full tracking-widest">
                 <HeroBanner />
