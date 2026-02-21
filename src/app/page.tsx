@@ -1,12 +1,15 @@
 "use client"
-import {ThemeProvider} from "@/contexts/themeContext"
-import {Container} from "@/components/container"
+import { ThemeProvider } from "@/contexts/themeContext"
+import { PageContainer } from "@/components/container"
+import { ParticleEffect } from "@/components/particleEffect"
 
 
-const Page = ()=>{
+const Page = () => {
+
   return (
     <ThemeProvider>
-      <Container/>
+      <PageContainer />
+      <ParticleEffect/>
     </ThemeProvider>
   )
 }
