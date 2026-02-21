@@ -20,28 +20,27 @@ export const Contact = () => {
                         <p className="my-4">If you have a project in mind or just want exchange some ideas, just hit me on the following mideas.</p>
                     </div>
                 </div>
-                <div className="flex flex-1 justify-end text-[#5a5a78]">
+                <div className="flex flex-1 justify-end text-[#5a5a78] wrap-anywhere">
                     <div className="flex flex-col gap-5">
-                        <div className="flex py-4 px-3 border rounded-lg items-center hover:border-[#6ef0c8] hover:text-[#6ef0c8] hover:bg-[#6ef0c8]/10">
-                            <div className="px-2"><Mail /></div>
-                            <div className="flex justify-between flex-1 items-center">
+                        <div className="flex py-4 px-2 border rounded-lg items-center hover:border-[#6ef0c8] hover:text-[#6ef0c8] hover:bg-[#6ef0c8]/10">
+                            <div className="pr-2"><Mail /></div>
+                            <div className="flex flex-1 items-center">
                                 {social.email}
-                                <ExternalLink className="w-5 cursor-pointer" />
                             </div>
                         </div>
                         <div className="flex py-4 px-3 border rounded-lg items-center hover:border-[#6ef0c8] hover:text-[#6ef0c8] hover:bg-[#6ef0c8]/10">
-                            <div className="px-2"><Linkedin /></div>
-                            <div className="flex justify-between flex-1 items-center">
+                            <div className="pr-2"><Linkedin /></div>
+                            <div className="flex flex-1 items-center">
                                 {social.linkedin}
-                                <ExternalLink className="w-5 cursor-pointer" />
                             </div>
+                            <ExternalLink className="w-5 cursor-pointer" />
                         </div>
                         <div className="flex py-4 px-3 border rounded-lg items-center hover:border-[#6ef0c8] hover:text-[#6ef0c8] hover:bg-[#6ef0c8]/10">
-                            <div className="px-2"><Github /></div>
-                            <div className="flex justify-between flex-1 items-center">
+                            <div className="pr-2"><Github /></div>
+                            <div className="flex flex-1 items-center">
                                 {social.github}
-                                <ExternalLink className="w-5 cursor-pointer" />
                             </div>
+                            <ExternalLink className="w-5 cursor-pointer" />
                         </div>
                     </div>
                 </div>
