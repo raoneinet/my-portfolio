@@ -18,7 +18,7 @@ export const MiniProjects = () => {
                         </h1>
                     </div>
                 </div>
-                <div className="w-full flex gap-4 pb-4 overflow-x-auto lg:overflow-hidden scrollbar-thumb-[#6ef0c8]/40 md:px-10 py-5">
+                <div className="w-full flex gap-4 pb-4 overflow-x-auto scrollbar-thumb-[#6ef0c8]/40 [scrollbar-width:thin] md:px-10 py-5">
                     {projectsData.map((project: ProjectTypes) => (
                         project.miniProject != false &&
                         <div key={project.id}
