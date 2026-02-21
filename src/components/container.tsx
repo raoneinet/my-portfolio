@@ -6,7 +6,7 @@ import { AboutMe } from "./about/aboutme"
 import { SkillAndTools } from "./skills/skills"
 import { Contact } from "./contact/contact"
 
-export const Container = () => {
+export const PageContainer = () => {
 
     return (
         <div className="bg-[#080810] w-full overflow-hidden">

@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Lexend, Syne } from "next/font/google";
 import "./globals.css";
+import { ParticleEffect } from "@/components/particleEffect";
+
+
 
 const lexend = Lexend({
   variable: "--font-lexend",
