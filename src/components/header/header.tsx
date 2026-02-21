@@ -1,5 +1,5 @@
 import {Menu} from "@/components/menu/menu"
-import { ActiveDot } from "../activeDot"
+import { ActiveDot } from "../effects/activeDot"
 
 export const Header = ()=>{
 
