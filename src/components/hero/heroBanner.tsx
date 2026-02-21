@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Terminal } from "../terminal/terminal"
 import TerminalBody from "../terminal/terminalBody"
 
@@ -22,7 +23,7 @@ export const HeroBanner = () => {
                     <div className=" w-full">
                         <div>
                             <h1 className="lg:text-9xl md:text-8xl text-5xl font-bold text-[#dde0f0]">
-                                Raone 
+                                Raone
                                 <span className="text-transparent [-webkit-text-stroke:1.5px_rgba(255,255,255,0.18)]">
                                     Ferreira
                                 </span>
@@ -34,20 +35,22 @@ export const HeroBanner = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex items-center gap-5">
+                        <div className="flex items-center gap-5 mt-10">
                             <button
                                 onClick={handleDowloadCv}
-                                className={`mt-3 px-2 py-3 border border-gray-200 
-                                rounded-lg font-bold hover:opacity-70 cursor-pointer`}
-                            >Vizualizar CV</button>
-                            <div className="flex gap-2 mt-2">
-                                <a href="https://github.com/raoneinet" target="_blank">
-                                    <img src="/icons/github.png" className="w-10 hover:animate-spin" />
-                                </a>
-                                <a href="https://www.linkedin.com/in/raone-ferreira-dev/" target="_blank">
-                                    <img src="/icons/linkedin.png" className="w-10 hover:animate-spin" />
-                                </a>
-                            </div>
+                                className={`px-6 py-3 border
+                                            rounded-lg text-[#6ef0c8] 
+                                            border-[#6ef0c8] bg-[#6ef0c8]/30 hover:bg-black cursor-pointer`}
+                            >
+                                Vizualizar CV
+                            </button>
+                            <Link
+                                href="#contact"
+                                className="py-3 px-6 border rounded-lg hover:text-[#6ef0c8] 
+                                            hover:border-[#6ef0c8] hover:bg-[#6ef0c8]/10 cursor-pointer text-[#dde0f0]"
+                            >
+                                Contact
+                            </Link>
                         </div>
                     </div>
                 </div>

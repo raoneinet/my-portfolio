@@ -5,12 +5,12 @@ const lines: any = [
     { type: "out", text: "developer", color: "text-violet-400" },
     { type: "cmd", text: "cat skills.json" },
     { type: "out", text: "{" },
-    { type: "out", text: '  "frontend": ["React","Next","Tailwind"],' },
-    { type: "out", text: '  "cms": ["WordPress","SEO"],' },
+    { type: "out", text: '  "frameworks": ["React","Next","Tailwind"],' },
+    { type: "out", text: '  "languages": ["JavaScript","TypeScript"],' },
     { type: "out", text: '  "tools": ["Git","Vercel","APIs"]' },
     { type: "out", text: "}" },
-    { type: "cmd", text: "status" },
-    { type: "out", text: "✔ Open to work", color: "text-green-400" },
+    { type: "cmd", text: "npm run dev" },
+    { type: "out", text: "✔ https://raone-ferreira.vercel.app/", color: "text-green-400" },
 ];
 
 function BlinkCursor() {
