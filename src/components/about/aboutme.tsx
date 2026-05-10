@@ -1,4 +1,4 @@
-import {curriculum} from "@/data/curriculumData"
+import { curriculum } from "@/data/curriculumData"
 import { CurriculumType } from "@/types/curriculumType"
 
 export const AboutMe = () => {
@@ -14,7 +14,8 @@ export const AboutMe = () => {
                         <h1><span className="text-[#dde0f0]">Who</span>ami</h1>
                     </div>
                     <div className="text-[#5a5a78] tracking-wide font-mono text-sm">
-                        <p className="my-4">Computer Engineering student at Universidade Aberta de Portugal (UAb-PT) with hands-on experience in web development and front-end engineering, building responsive, high-performance, and user-focused web applications. Proficient in HTML5, CSS3, Bootstrap, Tailwind CSS, JavaScript, TypeScript, React.js, Next.js, with back-end experience in PHP and MySQL. Always up to date with news about the Tech world and technologies.</p>
+                        <p className="my-4">I'm Raone Ferreira, a brazilian living in Portugal!</p>
+                        <p className="my-4">I'm also a Front-End Developer - Computer Engineering at Universidade Aberta de Portugal (UAb-PT) - with hands-on experience in web development and front-end engineering, building responsive, high-performance, and user-focused web applications. Proficient in HTML5, CSS3, Bootstrap, Tailwind CSS, JavaScript, TypeScript, React.js, Next.js, with back-end experience in PHP and MySQL. Always up to date with news about the Tech world and technologies.</p>
 
                         <p>Skilled in version control (Git) and Github, performance optimization, SEO basics, cross-browser testing, responsive design, and accessibility (WCAG). Strong problem-solving skills, continuously learning new technologies, and actively seeking opportunities to contribute to innovative, data-driven, and impactful digital projects.</p>
                     </div>

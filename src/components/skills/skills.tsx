@@ -3,8 +3,8 @@ export const SkillAndTools = () => {
     const frontend = [
         {
             framework: "React / Next.js",
-            language: "TypeScript",
-            structure: "HTML / CSS / JS",
+            language: "JavaScript / TypeScript",
+            structure: "HTML / CSS ",
             style: "TailwindCSS / Bootstrap"
         }
     ]
@@ -20,7 +20,8 @@ export const SkillAndTools = () => {
     const infra = [
         {
             git: "Git / Github",
-            deploy: "Web hosting"
+            deploy: "Web hosting",
+            dababase: "Supabase, MySQL"
         }
     ]
 
@@ -78,7 +79,7 @@ export const SkillAndTools = () => {
                     </div>
                     <div className="p-5 border rounded-lg flex flex-1 flex-col gap-5 hover:border-[#6ef0c8] hover:scale-103">
                         <div className="text-2xl">🔧</div>
-                        <div className="text-[#dde0f0] font-bold">Infra</div>
+                        <div className="text-[#dde0f0] font-bold">Infra & DB</div>
                         {infra.map((item, index) => (
                             <div
                                 key={index}
@@ -87,6 +88,7 @@ export const SkillAndTools = () => {
                                     <div className="flex flex-col gap-3 text-sm">
                                         <div className="">{item.git}</div>
                                         <div className="">{item.deploy}</div>
+                                        <div>{item.dababase}</div>
                                     </div>
                                 </div>
                             </div>
