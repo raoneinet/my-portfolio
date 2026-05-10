@@ -27,7 +27,7 @@ export const MiniProjects = () => {
                                 <Image src={project.img} alt="project name" width={400} height={100} className="h-40 rounded-t-lg" />
                             </div>
                             <div className="px-3 py-2 gap-1 flex flex-col justify-between text-xs">
-                                <div className="text-[#5a5a78] text-xs">
+                                <div className="text-[#5a5a78] text-xs wrap-anywhere">
                                     <span className="text-[#fa6d9a] uppercase">{project.category}</span> | <span>{project.url}</span>
                                 </div>
                                 <div className="text-[#dde0f0] font-bold flex justify-between">
@@ -39,6 +39,11 @@ export const MiniProjects = () => {
                                         <img src="/icons/link.png" className="w-3" alt="abrir link" />
                                     </a>
                                 </div>
+                                {project.users &&
+                                    <div className="text-[#dde0f0]">
+                                        <span>Users: </span>{project.users}
+                                    </div>
+                                }
                                 <div className="text-[#5a5a78] text-sm wrap-anywhere">
                                     <p>{project.description}</p>
                                 </div>

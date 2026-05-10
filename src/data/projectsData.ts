@@ -3,6 +3,17 @@ import { ProjectTypes } from "@/types/projectsType"
 export const projectsData: ProjectTypes[] = [
     {
         id: 1,
+        title: "Feelinvest",
+        url: "https://www.feelinvest.com.br/",
+        github: "https://github.com/raoneinet/feelinvest",
+        img: "/projectsImg/feelinvest-dashboard-proj.png",
+        description: "Feelinvest is a platform that analyzes market and stock sentiment using AI-powered processing of financial news. By aggregating and interpreting data from multiple sources, it provides a clear view of how the market feels about specific assets and the broader market environment.",
+        development: ["ReactJs", "NextJs", "Javascript", "Typescript", "Tailwind", "CSS", "AI Powered", "Supabase"],
+        miniProject: false,
+        category: "Web App"
+    },
+    {
+        id: 2,
         title: "Estudaki",
         url: "https://studyhouse-one.vercel.app/",
         img: "/projectsImg/estudaki.png",
@@ -12,7 +23,7 @@ export const projectsData: ProjectTypes[] = [
         category: "WEB APP"
     },
     {
-        id: 2,
+        id: 3,
         title: "Lusobrasil",
         url: "https://lusobrasil.com",
         img: "/projectsImg/lusobrasil.png",
@@ -22,7 +33,7 @@ export const projectsData: ProjectTypes[] = [
         category: "Blog"
     },
     {
-        id: 3,
+        id: 4,
         title: "Dancers_Tuk_Tuk",
         url: "https://dancerstuktuk.com/",
         img: "/projectsImg/tuktuk.png",
@@ -32,18 +43,30 @@ export const projectsData: ProjectTypes[] = [
         category: "institutional"
     },
     {
-        id: 4,
+        id: 5,
         title: "Pixel Ruller - Chrome Extension",
+        users: 18,
         url: "https://chromewebstore.google.com/detail/llfegojlgbpcjpcdgpjlpakioihlijnc?utm_source=item-share-cb",
         github: "https://github.com/raoneinet/chrome_ruler_extension",
         img: "/projectsImg/pixel_ruler.png",
-        description: "An extension created to solve a common need among front-end developers and designers: quickly measuring areas of a web page. With Pixel Ruler, you can measure the dimensions of any element on the page where the extension is active. Displays the result in the formats: w: 0px | h: 0px",
+        description: "A lightweight extension created for the dev community that solves a common need among front-end developers and designers: quickly measuring areas of a web page. With Pixel Ruler, you can measure the dimensions of any element on the page where the extension is active. Displays the result in the formats: w: 0px | h: 0px",
         development: ["HTML", "CSS", "Javascript"],
         miniProject: true,
         category: "Chrome extension"
     },
     {
-        id: 5,
+        id: 6,
+        title: "CSS Hover Inspector",
+        url: "",
+        github: "https://github.com/raoneinet/chrome_hover_inspector",
+        img: "/projectsImg/cssInspector.png",
+        description: "The CSS Hover Inspector is a powerful, lightweight extension designed for front-end developers and designers who want to skip the complexity of DevTools. Inspect and modify the CSS of any element on a page simply by hovering your mouse, all within a floating, professional-grade interface.",
+        development: ["Html", "CSS", "Javascript", "Chrome Ext.", "JSON"],
+        miniProject: true,
+        category: "Chrome Extention"
+    },
+    {
+        id: 7,
         title: "Moviepedia",
         url: "https://moviepedia-phi.vercel.app/",
         github: "https://github.com/raoneinet/movie-pedia",
@@ -53,26 +76,4 @@ export const projectsData: ProjectTypes[] = [
         miniProject: true,
         category: "Web App"
     },
-    {
-        id: 6,
-        title: "Previsão_do_Tempo",
-        url: "https://weather-app-seven-pi-37.vercel.app/",
-        github: "https://github.com/raoneinet/weather",
-        img: "/projectsImg/weather.png",
-        description: "Platform for checking weather forecasts with location-based search. It uses the OpenWeather API to obtain accurate results.",
-        development: ["Html", "Bootstrap", "Javascript", "Rest API"],
-        miniProject: true,
-        category: "Web App"
-    },
-    {
-        id: 7,
-        title: "Pizza_store",
-        url: "https://pizza-store-lac.vercel.app/",
-        github: "",
-        img: "/projectsImg/pizza-store.png",
-        description: "Online pizza ordering platform with a shopping cart system. Ideal for those who want to create a simple and minimalist business with an easy-to-use user experience.",
-        development: ["Html", "CSS", "Javascript", "JSON"],
-        miniProject: true,
-        category: "Web App"
-    }
 ]
