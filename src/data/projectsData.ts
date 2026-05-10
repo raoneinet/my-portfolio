@@ -34,10 +34,11 @@ export const projectsData: ProjectTypes[] = [
     {
         id: 4,
         title: "Pixel Ruller - Chrome Extension",
+        users: 18,
         url: "https://chromewebstore.google.com/detail/llfegojlgbpcjpcdgpjlpakioihlijnc?utm_source=item-share-cb",
         github: "https://github.com/raoneinet/chrome_ruler_extension",
         img: "/projectsImg/pixel_ruler.png",
-        description: "An extension created to solve a common need among front-end developers and designers: quickly measuring areas of a web page. With Pixel Ruler, you can measure the dimensions of any element on the page where the extension is active. Displays the result in the formats: w: 0px | h: 0px",
+        description: "A lightweight extension created for the dev community that solves a common need among front-end developers and designers: quickly measuring areas of a web page. With Pixel Ruler, you can measure the dimensions of any element on the page where the extension is active. Displays the result in the formats: w: 0px | h: 0px",
         development: ["HTML", "CSS", "Javascript"],
         miniProject: true,
         category: "Chrome extension"
